@@ -12,8 +12,11 @@ to/from a function that has already returned from execution. (http://www.ti.com/
 File Breakdown by purpose/room for modification:
 
   -main.c contains the starter tasks and clock initialization/running. Modify as necessary for desired tasks
+  
   -ISR.c is the interrupt context switcher, this is the heart of the RTOS process
+  
   -task.h contains RTOS type definitions and function prototypes
+  
   -task.c initializes task memory and contains the core RTOS functions, modify the memory definitions as necessary
 
 For any questions regarding the operation of this software or any of the hacky algorithmic choices,
